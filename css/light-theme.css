@@ -1,0 +1,65 @@
+body {
+  color: #593144;
+  background-color: #F8F8F8;
+}
+
+a {
+  color: #593144;
+}
+
+.header {
+  background-color: #F2E0E9;
+}
+
+.nav-main {
+  border-bottom: 2px solid #C7566F;
+}
+
+.btn {
+  border: 2px solid #C7566F;
+}
+
+.btn:hover {
+  background-color: #C7566F;
+  color: #FAFEFF;
+}
+
+.intro {
+  background-image: url('../img/intro.jpg');
+  background-position: top left;
+  background-color: #F8F8F8;
+}
+
+.border {
+  border-bottom: 2px solid #593144;
+}
+
+.meet {
+  border-bottom: 2px solid #593144;
+}
+
+.skills-head {
+  border-top: 2px solid #593144;
+}
+
+.level {
+  background-color: #ffffff;
+  background-color: #DFADB8;
+}
+
+.level div {
+  background-color: #C7566F;
+}
+
+.footer {
+  background-color: #F2E0E8;
+}
+
+.foot-decoration {
+  background-color: #C7566F;
+  color: #F2E0E8;
+}
+
+.fa-github {
+  color: #C7566F;
+}

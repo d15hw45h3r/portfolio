@@ -1,0 +1,65 @@
+body {
+  color: #FAFDFD;
+  background-color: #141010;
+}
+
+a {
+  color: #FAFDFD;
+}
+
+.header {
+  background-color: #060505;
+}
+
+.nav-main {
+  border-bottom: 2px solid #750026;
+}
+
+.btn {
+  border: 2px solid #750026;
+}
+
+.btn:hover {
+  background-color: #750026;
+  color: #FAFDFD;
+}
+
+.intro {
+  background-image: url('../img/dark-intro.jpg');
+  background-color: #141010;
+  background-size: cover;
+
+}
+
+.border {
+  border-bottom: 2px solid #FAFDFD;
+}
+
+.meet {
+  border-bottom: 2px solid #FAFDFD;
+}
+
+.skills-head {
+  border-top: 2px solid #FAFDFD;
+}
+
+.level {
+  background-color: #BF7F94;
+}
+
+.level div {
+  background-color: #8F2A4B;
+}
+
+.footer {
+  background-color: #060505;
+}
+
+.foot-decoration {
+  background-color: #8F2A4B;
+  color: #060505;
+}
+
+.fa-github {
+  color: #8F2A4B;
+}
