@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #593144;
+  font-weight: 400;
+  background-color: #F8F8F8;
+  line-height: 32px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #593144;
+}
+
+.header {
+  background-color: #F2E0E9;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.wrapper-header, nav {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.nav {
+  padding-left: 500px;
+  padding-right: 160px;
+  padding-top: 10px;
+}
+
+.nav-main {
+  height: 30px;
+  border-bottom: 2px solid #C7566F;
+}
+
+.nav-work {
+  padding-left: 50px;
+}
+
+.btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #C7566F;
+  padding: 9px 29px;
+  text-align: center;
+  border-radius: 3px;
+  line-height: 15px;;
+}
+
+.btn:hover {
+  background-color: #C7566F;
+  color: #FAFEFF;
+  transition: all 0.5s ease;
+}
+
+.intro {
+  background-image: url('img/intro.jpg');
+  background-size: 785px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-color: #F8F8F8;
+  height: 700px;
+}
+
+.wrapper-intro {
+  text-align: center;
+}
+
+.name {
+  padding-bottom: 25px;
+  padding-top: 350px;
+  font-size: 46px;
+}
+
+.border {
+  border-bottom: 2px solid #593144;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.jun {
+  padding-bottom: 20px;
+  font-size: 23px;
+  flex-direction: re
+}
+
+.meet {
+  padding-top: 25px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #593144;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.skills-head {
+  border-top: 2px solid #593144;
+  padding-top: 20px;
+}
+
+.skills {
+  margin-bottom: 100px;
+}
+
+.skills-list {
+  margin: 0;
+  padding: 0;
+}
+
+.skills-list dt {
+  padding-left: 32px;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.skill-html {
+  background-image: url("img/icon-html.svg");
+}
+
+.skill-css {
+  background-image: url("img/icon-css.svg");
+}
+
+.level {
+  margin: 4px 0 16px;
+  padding: 0;
+  height: 24px;
+  font-size: 0;
+  background-color: #ffffff;
+  border-radius: 3px;
+  background-color: #DFADB8;
+}
+
+.level div {
+  margin: 1px;
+  height: 24px;
+  background-color: #C7566F;
+  border-radius: 3px;
+}
+
+.footer {
+  background-color: #F2E0E8;
+  padding-top: 65px;
+  padding-bottom: 70px;
+  font-size: 16px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap-link {
+  display: grid;
+}
+
+.wrap-contacts {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.foot-email {
+  margin-left: 40px;
+  margin-right: 40px
+}
+
+.foot-decoration {
+  background-color: #C7566F;
+  color: #F2E0E8;
+  font-size: 24px;
+  padding: 7px;
+  border-radius: 100%;
+}
+
+.fa-phone {
+  padding-bottom: 6px;
+  padding: 7px 8px;
+}
+
+.fa-paper-plane {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.fa-linkedin {
+  padding: 7px 8px;
+}
+
+.foot-social {
+  padding-right: 40px;
+  margin-top: 15px;
+}
+
+.fa-github {
+  color: #C7566F;
+}
+
+.github {
+  margin-top: 13px;
+}
