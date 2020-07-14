@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
   </head>
 
   <body>
@@ -17,7 +18,7 @@
         <div class="wrapper-header">
           <nav class="nav">
             <a class="nav-main">Главная</a>
-            <a href="#" class="nav-work">Мои работы</a>
+            <a href="work.html" class="nav-work">Мои работы</a>
           </nav>
           <a href="#" class="btn btn-dark" id="theme-button">Изменить тему</a>
           <a href="index-en.html" class="btn btn-dark">English</a>
@@ -27,7 +28,7 @@
 
     <section class="intro">
       <div class="container">
-        <div class="wrapper-intro">
+        <div class="wrapper-intro animate__animated animate__fadeInDown">
           <h1 class="name">Валерия Винниченко</h1>
           <div class="border"></div>
           <p class="jun">Junior верстальщик</p>
@@ -40,20 +41,39 @@
       <div class="container">
         <h2 class="meet">Давайте познакомимся</h2>
         <h3>Пара слов о себе</h3>
-        <p>
-          Меня зовут Валерия, я студентка, живу в Киеве и учусь на программиста. За последние полгода я открыла для себя то, что мне интересно заниматься версткой. Я начала с создания дизайнов, а потом мне захотелось сверстать их. Вскоре появился еще и интерес к анимациям и бекенду. Очень хочу дальше стремиться и развиваться.
+        <p class="animate__animated animate__fadeInDown">
+          Меня зовут Валерия, мне 20 лет и я студентка, живу в Киеве. Полгода назад я заинтересовалась профессией веб-дизайнера. Мне было интересно делать странички, придумывать то, как будет выглядеть сайт. Параллельно с этим я начала учить верстку и поняла, что это мне нравится больше. Постепенно я начинаю учить JavaScript и PHP. Планирую не останавливаться на этом и развивать свои навыки.
         </p>
         <h3 class="skills-head">Мои навыки</h3>
         <p>Каждый день я узнаю для себя что-то новое, поэтому мои навыки могут часто меняться.</p>
+
         <div class="skills">
+          <div class="front">
+            <p>Мои навыки в верстке:</p>
+              <dl class="skills-list">
+                <dt class="skill-html">HTML</dt>
+                <dd class="level"><div style="width: 80%;">80%</div></dd>
+                <dt class="skill-css">CSS</dt>
+                <dd class="level"><div style="width: 60%;">60%</div></dd>
+                <dt class="skill-js">JS</dt>
+                <dd class="level"><div style="width: 20%;">20%</div></dd>
+                <dt class="skill-php">PHP</dt>
+                <dd class="level"><div style="width: 20%;">20%</div></dd>
+              </dl>
+          </div>
+          <div class="web">
+            <p>Мои навыки веб-дизайна</p>
             <dl class="skills-list">
-              <dt class="skill-html">HTML</dt>
+              <dt class="skill-html">Figma</dt>
               <dd class="level"><div style="width: 80%;">80%</div></dd>
-              <dt class="skill-css">CSS</dt>
+              <dt class="skill-css">Adobe XD</dt>
+              <dd class="level"><div style="width: 70%;">70%</div></dd>
+              <dt class="skill-js">Adobe Illustrator</dt>
               <dd class="level"><div style="width: 60%;">60%</div></dd>
-              <dt class="skill-js">JS</dt>
-              <dd class="level"><div style="width: 20%;">20%</div></dd>
+              <dt class="skill-php">Adobe Photoshop</dt>
+              <dd class="level"><div style="width: 50%;">50%</div></dd>
             </dl>
+          </div>
         </div>
       </div>
     </section>
@@ -81,8 +101,8 @@
         </div>
       </div>
     </footer>
-    <script type="text/javascript" src="js/script.js">
-
-    </script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/jquery-3.5.0.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>

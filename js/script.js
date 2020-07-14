@@ -1,4 +1,3 @@
-
 var btn = document.getElementById('theme-button');
 var link = document.getElementById('theme-link');
 

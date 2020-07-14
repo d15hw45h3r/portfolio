@@ -51,6 +51,11 @@ a {
   background-color: #8F2A4B;
 }
 
+.figma {
+  color: #8F2A4B;
+  font-weight: 700;
+}
+
 .footer {
   background-color: #060505;
 }
@@ -62,4 +67,12 @@ a {
 
 .fa-github {
   color: #8F2A4B;
+}
+
+.nav-mains {
+  border-bottom: none;
+}
+
+.nav-works {
+  border-bottom: 2px solid #750026;
 }
