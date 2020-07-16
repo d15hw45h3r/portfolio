@@ -24,6 +24,22 @@ a {
   color: #FAFDFD;
 }
 
+.btn-icon {
+  background-image: url('../img/sun-regular.svg');
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position-x: 8px;
+  background-position-y: 5px;
+}
+
+.btn-icon:hover {
+  background-image: url('../img/sun-regular.svg');
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position-x: 8px;
+  background-position-y: 5px;
+}
+
 .intro {
   background-image: url('../img/dark-intro.jpg');
   background-color: #141010;
