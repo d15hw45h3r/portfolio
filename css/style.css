@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -220,6 +224,7 @@ a {
   }
 }
 
+
 /* 768px - 992px */
 @media screen and (max-width: 992px) {
   .container {
@@ -338,4 +343,29 @@ a {
   .foot-email {
     margin-left: 0px;
   }
+}
+
+.fa-arrow-up {
+  position: fixed;
+  z-index: 1;
+  padding: 0;
+  bottom: 75px;
+  right: 20px;
+  width: 64px;
+  height: 64px;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  border: 5px solid;
+  border-radius: 50%;
+  display: none;
+  cursor: pointer;
+  margin-left: 70px;
+  margin-bottom: 80px;
+  outline: none;
+}
+
+.shown {
+  display: inline-block;
 }

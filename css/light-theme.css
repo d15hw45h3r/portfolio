@@ -94,3 +94,8 @@ a {
 .nav-works {
   border-bottom: 2px solid #C7566F;
 }
+
+.fa-arrow-up {
+  border: 3px solid #C7566F;
+  color: #C7566F;
+}
