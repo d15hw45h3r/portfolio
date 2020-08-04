@@ -1,4 +1,4 @@
-let upButton = document.querySelector('.fa-arrow-up');
+let upButton = document.querySelector('.fa-angle-up');
 
 window.onscroll = function () {
   if (window.pageYOffset > 100) {

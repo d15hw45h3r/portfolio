@@ -2,108 +2,169 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Portfolio</title>
+    <title>Сайт-визитка</title>
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/light-theme.css" id="theme-link">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
   </head>
-
-  <body>
-    <header class="header">
-      <div class="container">
-        <div class="wrapper-header">
-          <nav class="nav">
-            <a class="nav-main">Главная</a>
-            <a href="work.html" class="nav-work">Мои работы</a>
-          </nav>
-          <a href="#" class="btn btn-dark btn-icon" id="theme-button">Изменить тему</a>
-          <a href="index-en.html" class="btn btn-dark">English</a>
+  <body class="page light-theme ru" id="page">
+    <header>
+        <div class="header">
+          <div class="container">
+            <div class="wrapper-header">
+              <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+              <!-- RU -->
+              <nav class="wrap-nav ru">
+                <a class="main">Главная</a>
+                <a href="#">Мои работы</a>
+              </nav>
+              <!-- EN -->
+              <nav class="wrap-nav en">
+                <a class="main">Main</a>
+                <a href="#">My work</a>
+              </nav>
+              <!-- RU -->
+              <div class="buttons wrap-nav ru">
+                <a class="btn btn-icon btn-ru">Сменить тему</a>
+                <a class="btn" id="btn-lang-ru">English</a>
+              </div>
+              <!-- EN -->
+              <div class="buttons wrap-nav en">
+                <a class="btn btn-icon btn-en">Change theme</a>
+                <a class="btn btn-lang-en">Русский</a>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
     </header>
 
     <section class="intro">
       <div class="container">
-        <div class="wrapper-intro animate__animated animate__fadeInDown">
-          <h1 class="name">Валерия Винниченко</h1>
+        <!-- RU -->
+        <div class="intro-layout ru">
+          <h1>Валерия Винниченко</h1>
           <div class="border"></div>
-          <p class="jun">Junior верстальщик</p>
-          <a href="files/my-cv.pdf" target="_blank" class="btn">Посмотреть CV</a>
+          <p class="descript">Junior Front-end Developer</p>
         </div>
+        <!-- EN -->
+        <div class="intro-layout en">
+          <h1>Valeriia Vinnichenko</h1>
+          <div class="border"></div>
+          <p class="descript">Junior Front-end Developer</p>
+        </div>
+        <!-- RU -->
+        <a href="files/my-cv.pdf" target="_blank" class="btn cv ru">Посмотреть CV</a>
+        <!-- EN -->
+        <a href="files/my-cv.pdf" target="_blank" class="btn cv en">See my CV</a>
       </div>
     </section>
 
     <section class="about">
       <div class="container">
-        <h2 class="meet">Давайте познакомимся</h2>
-        <h3>Пара слов о себе</h3>
-        <p class="animate__animated animate__fadeInDown">
-          Меня зовут Валерия, мне 20 лет и я студентка, живу в Киеве. Полгода назад я заинтересовалась профессией веб-дизайнера. Мне было интересно делать странички, придумывать то, как будет выглядеть сайт. Параллельно с этим я начала учить верстку и поняла, что это мне нравится больше. Постепенно я начинаю учить JavaScript и PHP. Планирую не останавливаться на этом и развивать свои навыки.
-        </p>
-        <a href="https://freelancehunt.com/freelancer/valeriaa_vinnichenko.html?from=shield&r=P3W5j" target="_blank"><img src="https://freelancehunt.com/shields/display/id/868454/type/rating?style=for-the-badge&amp;lang=ru&amp;showName=1" alt="Freelancehunt.com — простой и честный фриланс"></a>
-        <h3 class="skills-head">Мои навыки</h3>
-        <p>Каждый день я узнаю для себя что-то новое, поэтому мои навыки могут часто меняться.</p>
+        <!-- RU -->
+        <h2 class="meet-header ru">Давайте познакомимся</h2>
+        <!-- EN -->
+        <h2 class="meet-header en">Let's get acquainted</h2>
+        <div class="border"></div>
+        <!-- RU -->
+        <div class="about-me ru">
+          <h3>Пара слов о себе</h3>
+          <div class="border"></div>
+          <p>
+            Меня зовут Валерия. Мне 20 лет, я студентка, учусь в Киеве на программиста. Хочу начать свою карьеру в сфере веб-разработки. Каждый день я изучаю много новых и интересных вещей для себя. Я начинала с разработки веб-дизайна с помощью программ Figma и Adobe XD. Вскоре мне захотелось создавать те сайты, макеты для которых я делала. Так у меня появился интерес к верстке, а потом к JavaScript и PHP. Планирую развиваться в этой сфере и учить много нового.
+          </p>
+        </div>
+        <!-- EN -->
+        <div class="about-me en">
+          <h3 class="en">About me</h3>
+          <div class="border"></div>
+          <p class="en">
+            My name is Valeriia. I`m 20 years old, I`m a student and I live in Kyiv. I would like to begin my career in web-development area. Every day I study a lot of new and interesting things for myself. I started making web-design with Figma and Adobe XD. Then I wanted to create sites I made design for. So I was very interested in Front-end development. I plan to progress in this area and learn a lot of new things.
+          </p>
+        </div>
         <div class="skills">
-          <div class="front">
-            <p>Мои навыки в верстке:</p>
-              <dl class="skills-list">
-                <dt class="skill-html">HTML</dt>
-                <dd class="level"><div style="width: 80%;">80%</div></dd>
-                <dt class="skill-css">CSS</dt>
-                <dd class="level"><div style="width: 60%;">60%</div></dd>
-                <dt class="skill-js">JS</dt>
-                <dd class="level"><div style="width: 40%;">40%</div></dd>
-                <dt class="skill-php">PHP</dt>
-                <dd class="level"><div style="width: 40%;">20%</div></dd>
-              </dl>
-          </div>
-          <div class="web">
-            <p>Мои навыки веб-дизайна</p>
-            <dl class="skills-list">
-              <dt class="skill-html">Figma</dt>
-              <dd class="level"><div style="width: 80%;">80%</div></dd>
-              <dt class="skill-css">Adobe XD</dt>
-              <dd class="level"><div style="width: 70%;">70%</div></dd>
-              <dt class="skill-js">Adobe Illustrator</dt>
-              <dd class="level"><div style="width: 60%;">60%</div></dd>
-              <dt class="skill-php">Adobe Photoshop</dt>
-              <dd class="level"><div style="width: 50%;">50%</div></dd>
-            </dl>
+          <!-- RU -->
+          <h3 class="ru">Мои навыки</h3>
+          <!-- EN -->
+          <h3 class="en">My skills</h3>
+          <div class="border"></div>
+          <!-- RU -->
+          <p class="ru">Информация в данном блоке может изменяться, так как я все еще в процессе обучения.</p>
+          <!-- EN -->
+          <p class="en">Information in this block can change, because I`m still in a process of learning.</p>
+          <dl class="skills-list">
+            <dt class="skill-html">HTML</dt>
+            <dd class="level"><div style="width: 80%;">80%</div></dd>
+            <dt class="skill-css">CSS</dt>
+            <dd class="level"><div style="width: 70%;">70%</div></dd>
+            <dt class="skill-js">JS</dt>
+            <dd class="level"><div style="width: 35%;">35%</div></dd>
+            <dt class="skill-php">PHP</dt>
+            <dd class="level"><div style="width: 35%;">35%</div></dd>
+          </dl>
+          <div class="border"></div>
+          <dl class="skills-list">
+            <dt class="skill-figma">Figma</dt>
+            <dd class="level"><div style="width: 60%;">60%</div></dd>
+            <dt class="skill-adobexd">Adobe XD</dt>
+            <dd class="level"><div style="width: 55%;">55%</div></dd>
+          </dl>
+        </div>
+        <div class="contacts">
+          <!-- RU -->
+          <h3 class="ru">Связаться со мной</h3>
+          <!-- EN -->
+          <h3 class="en">Contact me</h3>
+          <div class="border"></div>
+          <div class="contact-information">
+            <div class="phone">
+              <div class="fa fa-phone"></div>
+              <p>+(380) 97-024-47-85</p>
+            </div>
+            <div class="mail">
+              <div class="fa fa-envelope"></div>
+              <p>vinnichenkovaleriaa@gmail.com</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <footer class="footer">
+    <footer>
       <div class="container">
-        <div class="footer-wrapper">
-          <div class="wrap-link">
+        <div class="wrapper-footer">
+          <a class="logo-btn"><img src="img/logo.png" alt="logo"></a>
+          <!-- RU -->
+          <div class="nav ru">
             <a>Главная</a>
             <a href="#">Мои работы</a>
           </div>
-          <div class="wrap-contacts">
-            <p class="phone">
-              <span class="fa fa-phone foot-decoration"></span>
-              <span class="fa fa-paper-plane foot-decoration" style="font-size: 17px;"></span>
-              +(380)97-024-47-85
-            </p>
-            <p class="foot-email">
-              <span class="fa fa-envelope foot-decoration" style="font-size: 17px;"></span>
-              viinnichenkovaleriaa@gmail.com
-            </p>
-            <a href="https://www.linkedin.com/in/valeriia-vinnichenko-95592a1b2/" class="foot-social"><span class="fa fa-linkedin foot-decoration"></span></a>
-            <a href="https://github.com/d15hw45h3r" class="foot-social github"><span class="fa fa-github" style="font-size: 36px;"></span></a>
+          <!-- EN -->
+          <div class="nav en">
+            <a>Main</a>
+            <a href="#">My work</a>
+          </div>
+          <div class="other-contacts">
+            <!-- RU -->
+            <p class="ru">Мои другие контакты</p>
+            <!-- EN -->
+            <p class="en">See what I`m up to</p>
+            <div>
+              <a href="https://github.com/d15hw45h3r" target="_blank" class="fa fa-github-alt"></a>
+              <a href="https://www.linkedin.com/in/valeriia-vinnichenko-95592a1b2/" target="_blank" class="fa fa-linkedin"></a>
+              <a href="https://www.facebook.com/profile.php?id=100023260024382" target="_blank" class="fa fa-facebook"></a>
+            </div>
           </div>
         </div>
       </div>
     </footer>
-    <button type="button" class="fa fa-arrow-up hidden" style="font-size: 24px;"></button>
-    <script type="text/javascript" src="js/theme.js"></script>
+    <button type="button" class="fa fa-angle-up"></button>
+
+    <script type="text/javascript" src="js/themes.js"></script>
+    <script type="text/javascript" src="js/scroll.js"></script>
+    <script type="text/javascript" src="js/lang-change.js"></script>
     <script type="text/javascript" src="js/up-button.js"></script>
   </body>
 </html>
