@@ -32,6 +32,11 @@ h3 {
   font-size: 26px;
 }
 
+h4 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
 .container {
   max-width: 1300px;
   margin: 0 auto;
@@ -150,7 +155,7 @@ a:hover {
   margin-bottom: 120px;
 }
 
-.about-me .border, .skills .border, .contacts .border {
+.about-me .border, .skills .border, .achievements .border {
   width: 93px;
 }
 
@@ -196,8 +201,29 @@ a:hover {
   background-color: rgba(177, 20, 34, 0.71);
 }
 
-.contacts h3 {
+.achievements {
   margin-top: 80px;
+}
+
+.achieve {
+  width: 530px;
+  margin: 50px auto;
+}
+
+.achieve h4 {
+  margin-top: 15px;
+}
+
+.achieve .fa {
+  font-size: 35px;
+  color: #920F1B;
+}
+
+/* CONTACT SECTION */
+
+.contacts h2 {
+  margin-top: 80px;
+  text-align: center;
 }
 
 .contact-information div {
