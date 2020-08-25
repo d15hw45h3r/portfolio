@@ -74,7 +74,7 @@ a:hover {
   width: 200px;
 }
 
-.main {
+.active {
   border-bottom: 2px solid #920F1B;
   padding-bottom: 8px;
 }
@@ -252,6 +252,16 @@ a:hover {
   font-size: 22px;
 }
 
+
+
+/* MY-WORK */
+
+.my-work {
+  text-align: center;
+  min-height: 900px;
+}
+
+
 /* FOOTER */
 
 .wrapper-footer {
@@ -290,6 +300,8 @@ a:hover {
   color: #BC2533;
 }
 
+
+/* UP-button */
 .fa-angle-up {
   position: fixed;
   z-index: 1;
@@ -374,6 +386,10 @@ a:hover {
   background-color: #F6D8DB;
 }
 
+.work-light {
+  background: #F8F8F8 url('../img/bg-small-light.png') no-repeat top;
+}
+
 
 /* DARK THEME */
 
@@ -406,6 +422,7 @@ a:hover {
   background-position-y: 5px;
 }
 
+
 .dark-theme footer {
   background-color: #060505;
 }
@@ -424,6 +441,10 @@ a:hover {
 
 .dark-theme .fa-angle-up:hover {
   background-color: #060505;
+}
+
+.work-dark {
+  background: #141010 url('../img/bg-small-dark.png') no-repeat top;
 }
 
 
