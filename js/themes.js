@@ -12,4 +12,6 @@ themeButtonRu.onclick = function () {
 themeButtonEn.onclick = function () {
   page.classList.toggle('light-theme');
   page.classList.toggle('dark-theme');
+  page.classList.toggle('work-light');
+  page.classList.toggle('work-dark');
 }
