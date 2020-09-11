@@ -1,5 +1,10 @@
-let logoButton = document.querySelector('.logo-btn');
+let logo = document.querySelector(".logo");
+let moreButton = document.querySelector(".more");
 
-logoButton.onclick = function () {
-  window.scrollTo(0,0);
-}
+logo.onclick = function () {
+  window.scrollTo(0, 0);
+};
+
+moreButton.onclick = function () {
+  window.scrollTo(0, 700);
+};

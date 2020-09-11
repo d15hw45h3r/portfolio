@@ -1,219 +1,170 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Сайт-визитка</title>
+    <meta charset="utf-8" />
+    <title>Portfolio</title>
 
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Poiret+One&family=Raleway:wght@400;500;600;700&family=Roboto+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body class="page light-theme ru" id="page">
-    <header>
-        <div class="header">
-          <div class="container">
-            <div class="wrapper-header">
-              <a href="index.html"><img src="img/logo.png" alt="logo"></a>
-              <!-- RU -->
-              <nav class="wrap-nav ru">
-                <a class="active">Главная</a>
-                <a href="work.html">Мои работы</a>
-              </nav>
-              <!-- EN -->
-              <nav class="wrap-nav en">
-                <a class="active">Main</a>
-                <a href="work.html">My work</a>
-              </nav>
-              <!-- RU -->
-              <div class="buttons wrap-nav ru">
-                <a class="btn btn-icon btn-ru">Сменить тему</a>
-                <a class="btn" id="btn-lang-ru">English</a>
-              </div>
-              <!-- EN -->
-              <div class="buttons wrap-nav en">
-                <a class="btn btn-icon btn-en">Change theme</a>
-                <a class="btn btn-lang-en">Русский</a>
-              </div>
-            </div>
-          </div>
+  <body>
+    <div class="wrapper">
+      <header class="header-alt">
+        <div class="container">
+          <a href="#" v class="logo"><img src="img/logo.svg" alt="logo" /></a>
         </div>
-    </header>
-
-    <section class="intro">
-      <div class="container">
-        <!-- RU -->
-        <div class="intro-layout ru">
-          <h1 id="name" class="animate__fadeInDown">Валерия Винниченко</h1>
-          <div class="border"></div>
-          <p class="descript">Junior Front-end Developer</p>
-        </div>
-        <!-- EN -->
-        <div class="intro-layout en">
-          <h1>Valeriia Vinnichenko</h1>
-          <div class="border"></div>
-          <p class="descript">Junior Front-end Developer</p>
-        </div>
-        <!-- RU -->
-        <a href="files/cv.pdf" target="_blank" class="btn cv ru">Посмотреть CV</a>
-        <!-- EN -->
-        <a href="files/cv.pdf" target="_blank" class="btn cv en">View CV</a>
-      </div>
-    </section>
-
-    <section class="about">
-      <div class="container">
-        <!-- RU -->
-        <h2 class="meet-header ru">Давайте познакомимся</h2>
-        <!-- EN -->
-        <h2 class="meet-header en">Let's get acquainted</h2>
-        <div class="border"></div>
-        <!-- RU -->
-        <div class="about-me ru">
-          <h3>Пара слов о себе</h3>
-          <div class="border"></div>
-          <p>
-            Меня зовут Валерия. Мне 20 лет, я студентка, учусь в Киеве на программиста. Хочу начать свою карьеру в сфере веб-разработки. Каждый день я изучаю много новых и интересных вещей для себя. Я начинала с разработки веб-дизайна с помощью программ Figma и Adobe XD. Вскоре мне захотелось создавать те сайты, макеты для которых я делала. Так у меня появился интерес к верстке, а потом к JavaScript и PHP. Планирую развиваться в этой сфере и учить много нового.
-          </p>
-        </div>
-        <!-- EN -->
-        <div class="about-me en">
-          <h3 class="en">About me</h3>
-          <div class="border"></div>
-          <p class="en">
-            My name is Valeriia. I`m 20 years old, I`m a student and I live in Kyiv. I would like to begin my career in web-development area. Every day I study a lot of new and interesting things for myself. I started making web-design with Figma and Adobe XD. Then I wanted to create sites I made design for. So I was very interested in Front-end development. I plan to progress in this area and learn a lot of new things.
-          </p>
-        </div>
-        <div class="skills">
-          <!-- RU -->
-          <h3 class="ru">Мои навыки</h3>
-          <!-- EN -->
-          <h3 class="en">My skills</h3>
-          <div class="border"></div>
-          <!-- RU -->
-          <p class="ru">Информация в данном блоке может изменяться, так как я все еще в процессе обучения.</p>
-          <!-- EN -->
-          <p class="en">Information in this block can change, because I`m still in a process of learning.</p>
-          <dl class="skills-list">
-            <dt class="skill-html">HTML</dt>
-            <dd class="level"><div style="width: 80%;">80%</div></dd>
-            <dt class="skill-css">CSS</dt>
-            <dd class="level"><div style="width: 70%;">70%</div></dd>
-            <dt class="skill-js">JS</dt>
-            <dd class="level"><div style="width: 35%;">35%</div></dd>
-            <dt class="skill-php">PHP</dt>
-            <dd class="level"><div style="width: 35%;">35%</div></dd>
-          </dl>
-          <div class="border"></div>
-          <dl class="skills-list">
-            <dt class="skill-figma">Figma</dt>
-            <dd class="level"><div style="width: 60%;">60%</div></dd>
-            <dt class="skill-adobexd">Adobe XD</dt>
-            <dd class="level"><div style="width: 55%;">55%</div></dd>
-          </dl>
-        </div>
-        <div class="achievements">
-          <!-- RU -->
-          <h3 class="ru">Мои достижения</h3>
-          <!-- EN -->
-          <h3 class="en">Achievements</h3>
-          <div class="border"></div>
-          <!-- RU -->
-          <div class="achieve ru">
-            <div class="fa fa-graduation-cap"></div>
-            <h4>Образование</h4>
-            <p>Киевский Политехнический Институт им. Игоря Сикорского
-              2017-2021 г.
+      </header>
+      <section>
+        <div class="container">
+          <div class="section-1">
+            <h1>Valeriia Vinnichenko</h1>
+            <p>
+              Junior Front-end developer, Bachelor student
+              <a href="https://kpi.ua/" target="_blank">@KPI</a>
             </p>
-            <p>Факультет: Информатики и Вычислительной Техники
-            Специальность: Компьютерная инженерия</p>
           </div>
-          <!-- EN -->
-          <div class="achieve en">
-            <div class="fa fa-graduation-cap"></div>
-            <h4>Education</h4>
-            <p>Igor Sikorsky Kyiv Polytechnic Institute
-              2017-2021
+          <button type="button" name="more" class="btn more">More</button>
+        </div>
+      </section>
+    </div>
+    <main>
+      <section>
+        <div class="container">
+          <div class="section-2">
+            <h2>About me</h2>
+            <p>
+              Hi! My name is Valeriia. I am a 4 year student and I want to start
+              my career in Web development field.
             </p>
-            <p>Faculty: Informatics and Computer Technology
-            Specialty: Computer Engineeging</p>
+            <p>
+              When I started learning web design, I didn`t even thought that
+              I`ll start to have interest for something else. But then I
+              discovered that I want to make my own web sites. So I started
+              learning HTML and CSS. Then I wanted to do more things, so I`m
+              learning JavaScript and React.js now.
+            </p>
+            <p>
+              I want to move forward and learn more interesting features and to
+              improve myself every day.
+            </p>
           </div>
-          <div class="border"></div>
-          <!-- RU -->
-          <div class="achieve ru">
-            <div class="fa fa-language"></div>
-            <h4>First Certificate in English</h4>
-            <p>Кембриджский сертификат по английскому языку</p>
-            <p>Уровень В2</p>
-            <p>Дата сдачи экзамена: Май 2017</p>
-          </div>
-          <!-- EN -->
-          <div class="achieve en">
-            <div class="fa fa-language"></div>
-            <h4>First Certificate in English</h4>
-            <p>Cambridge English Level 1 Certificate in ESOL International</p>
-            <p>level В2</p>
-            <p>Examination Date: May 2017</p>
-          </div>
+          <a href="files/cv.pdf" target="_blank" class="btn-cv">My CV</a>
+        </div>
+      </section>
+      <section>
+        <div class="projects">
+          <a
+            href="https://github.com/d15hw45h3r/react-calculator"
+            target="_blank"
+            class="project"
+          >
+            <div class="detail">
+              <div class="project-content">
+                <h2>React calculator</h2>
+                <p>My first project using React.</p>
+                <img src="files/react-calculator.png" alt="project picture" />
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+      <div class="container">
+        <div class="skills-wrap">
+          <section>
+            <div class="section-3">
+              <h2>Front-end skills</h2>
+              <dl class="skills-list">
+                <div class="wrap">
+                  <dt class="skill-html-css">HTML / CSS</dt>
+                  <dt>(1 year)</dt>
+                  <dd class="level"><div style="width: 80%"></div></dd>
+                </div>
+                <div class="wrap">
+                  <dt class="skill-js-react">JS / React.js</dt>
+                  <dt>(5 mon)</dt>
+                  <dd class="level"><div style="width: 45%"></div></dd>
+                </div>
+                <div class="wrap">
+                  <dt class="skill-php">PHP</dt>
+                  <dt>(3 mon)</dt>
+                  <dd class="level"><div style="width: 20%"></div></dd>
+                </div>
+              </dl>
+            </div>
+          </section>
+          <section>
+            <div class="section-3">
+              <h2>Web design skills</h2>
+              <dl class="skills-list">
+                <div class="wrap">
+                  <dt class="skill-html-css">Figma</dt>
+                  <dt>(1 year)</dt>
+                  <dd class="level"><div style="width: 80%"></div></dd>
+                </div>
+                <div class="wrap">
+                  <dt class="skill-js-react">Adobe XD</dt>
+                  <dt>(7 mon)</dt>
+                  <dd class="level"><div style="width: 65%"></div></dd>
+                </div>
+                <div class="wrap">
+                  <dt class="skill-php">Adobe Illustrator</dt>
+                  <dt>(1 year)</dt>
+                  <dd class="level"><div style="width: 75%"></div></dd>
+                </div>
+              </dl>
+            </div>
+          </section>
         </div>
       </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="contacts">
-          <!-- RU -->
-          <h2 class="ru">Связаться со мной</h2>
-          <!-- EN -->
-          <h2 class="en">Contact me</h2>
-          <div class="border"></div>
-          <div class="contact-information">
-            <div class="phone">
-              <div class="fa fa-phone"></div>
-              <p>+(380) 97-024-47-85</p>
-            </div>
-            <div class="mail">
-              <div class="fa fa-envelope"></div>
-              <p>vinnichenkovaleriaa@gmail.com</p>
+      <section>
+        <div class="container">
+          <div class="section-4">
+            <h2>Achievements</h2>
+            <div class="ach-wrap">
+              <div class="ach-section">
+                <h3>Education</h3>
+                <p>Igor Sikorsky Kyiv Polytechnic Institute, 2017-2021</p>
+                <p>Faculty: Informatics and Computer Technology</p>
+                <p>Specialty: Computer Engineeging</p>
+              </div>
+              <div class="ach-section">
+                <h3>First Certificate in English</h3>
+                <p>
+                  Cambridge English Level 1 Certificate in ESOL International
+                </p>
+                <p>Level B2</p>
+                <p>Examination Date: May 2017</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <footer>
+      </section>
+    </main>
+    <footer class="footer">
       <div class="container">
-        <div class="wrapper-footer">
-          <a class="logo-btn"><img src="img/logo.png" alt="logo"></a>
-          <!-- RU -->
-          <div class="nav ru">
-            <a>Главная</a>
-            <a href="work.html">Мои работы</a>
+        <div class="footer-wrap">
+          <div class="contacts">
+            <a href="#" class="contact fa fa-envelope"></a>
+            <a href="#" class="contact fa fa-paper-plane"></a>
+            <a
+              href="https://github.com/d15hw45h3r"
+              class="contact fa fa-github"
+            ></a>
+            <a href="#" class="contact fa fa-linkedin"></a>
           </div>
-          <!-- EN -->
-          <div class="nav en">
-            <a>Main</a>
-            <a href="work.html">My work</a>
-          </div>
-          <div class="other-contacts">
-            <!-- RU -->
-            <p class="ru">Мои другие контакты</p>
-            <!-- EN -->
-            <p class="en">See what I`m up to</p>
-            <div>
-              <a href="https://github.com/d15hw45h3r" target="_blank" class="fa fa-github-alt"></a>
-              <a href="https://www.linkedin.com/in/valeriia-vinnichenko-95592a1b2/" target="_blank" class="fa fa-linkedin"></a>
-              <a href="https://www.facebook.com/profile.php?id=100023260024382" target="_blank" class="fa fa-facebook"></a>
-            </div>
+          <div class="credits">
+            <p>© Valeriia Vinnichenko</p>
+            <button>Русский</button>
           </div>
         </div>
       </div>
     </footer>
-    <button type="button" class="fa fa-angle-up"></button>
-
-    <script type="text/javascript" src="js/themes.js"></script>
-    <script type="text/javascript" src="js/lang-change.js"></script>
-    <script type="text/javascript" src="js/up-button.js"></script>
+    <script src="js/fixed-header.js"></script>
+    <script src="js/scroll.js"></script>
   </body>
 </html>
