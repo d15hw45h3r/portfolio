@@ -56,7 +56,7 @@ h3 {
 
 .container {
   margin: 0 auto;
-  width: 1500px;
+  width: 1300px;
 }
 
 @keyframes slideDown {
@@ -203,7 +203,6 @@ div[class^="section-"] h3 {
 }
 
 .section-2 p {
-  width: 1300px;
   letter-spacing: normal;
   line-height: normal;
   padding-top: 10px;
@@ -233,13 +232,14 @@ div[class^="section-"] h3 {
 }
 
 .project {
-  min-width: 1053px;
+  width: 55%;
   height: 550px;
+  overflow: hidden;
 }
 
 .project:nth-child(4n + 2),
 .project:nth-child(4n + 3) {
-  min-width: 850px;
+  width: 45%;
 }
 
 .project-content {
@@ -258,13 +258,11 @@ div[class^="section-"] h3 {
   margin-bottom: 30px;
 }
 
-.project img {
+.project-content img {
   z-index: -1;
   position: absolute;
   left: -103px;
   height: 550px;
-  overflow: hidden;
-  max-width: 1053px;
 }
 
 .project .detail {
@@ -279,8 +277,8 @@ div[class^="section-"] h3 {
 }
 
 .project:nth-child(4n + 2) img,
-.project:nth-child(4n + 3) {
-  width: 850px;
+.project:nth-child(4n + 3) img {
+  width: 135%;
 }
 
 .project:nth-child(6n + 1) .detail {
@@ -480,4 +478,85 @@ dt[class^="skill-"] {
 
 .credits button:hover {
   color: #9d344a;
+}
+
+/* ADAPTIVITY */
+
+/* @media screen and (max-width: 1300px) {
+  .container {
+    width: 1200px;
+  }
+} */
+
+@media screen and (max-width: 1500px) {
+  .container {
+    width: 1140px;
+  }
+
+  .project:nth-child(4n + 2) img,
+  .project:nth-child(4n + 3) img {
+    width: 230%;
+    left: -320px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    width: max-content;
+  }
+
+  .container {
+    width: 1140px;
+  }
+
+  .project {
+    width: 50%;
+  }
+
+  .project:nth-child(4n + 2),
+  .project:nth-child(4n + 3) {
+    width: 50%;
+  }
+
+  .project:nth-child(4n + 2) img,
+  .project:nth-child(4n + 3) img {
+    width: 210%;
+  }
+  .project-content img {
+    left: -300px;
+  }
+
+  .wrap {
+    width: 400px;
+  }
+
+  .level {
+    width: 120px;
+  }
+
+  .ach-section {
+    width: 420px;
+  }
+
+  .section-4 .ach-section p {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
 }
