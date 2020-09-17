@@ -246,6 +246,7 @@ div[class^="section-"] h3 {
   min-height: 155px;
   border-left: 3px solid #fff;
   padding-left: 23px;
+  margin-right: 55px;
   margin-left: 100px;
 
   display: flex;
