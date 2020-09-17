@@ -49,6 +49,11 @@ h3 {
   font-size: 26px;
 }
 
+.page.en .ru,
+.page.ru .en {
+  display: none;
+}
+
 .wrapper {
   background: url("../img/header-bg.jpg") no-repeat;
   height: 700px;
