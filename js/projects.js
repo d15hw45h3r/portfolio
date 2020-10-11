@@ -1,12 +1,12 @@
 var projectData = [
   {
-    link: "https://github.com/d15hw45h3r/react-calculator",
+    link: "https://valeriias-react-calculator.netlify.app",
     imgUrl: "files/react-calculator.png",
     text: "My first project using React.",
     headertext: "React calculator",
   },
   {
-    link: "https://github.com/d15hw45h3r/weather",
+    link: "https://github.com/d15hw45h3r/react-weather",
     imgUrl: "files/weather-project.png",
     text:
       "This is an App that shows you a current weather. Used OpenWeatherMap API.",
