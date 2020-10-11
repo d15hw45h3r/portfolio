@@ -1,5 +1,5 @@
 var skillDataHTML = [
-  "basics, semantics, layouts, positioning",
+  "layouts, positioning",
   "display, box, grid, flex-box",
   "responsive design",
   "animation",
@@ -8,7 +8,6 @@ var skillDataHTML = [
 ];
 
 var skillDataJS = [
-  "syntax, basics",
   "DOM manipulation",
   "fetch API / Ajax",
   "ES6 / modular JS",
