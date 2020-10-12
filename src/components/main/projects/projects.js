@@ -13,13 +13,13 @@ const Projects = () => {
         <ProjectItem
           link="https://valeriias-react-calculator.netlify.app/"
           header="React calculator"
-          description="This is the description"
+          description="This is my first project using React."
           image={img}
         />
         <ProjectItem
           link="https://github.com/d15hw45h3r/react-weather"
           header="Weather app"
-          description="This is a description"
+          description="A set of weather cards using OpenWeatherMap API."
           image={img2}
         />
       </div>
