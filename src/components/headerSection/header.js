@@ -1,45 +1,44 @@
 import React, { useState } from "react";
 import logo from "../../img/logo.png";
 import "../../App.css";
+import { useTransition, animated } from "react-spring";
 
 const Header = () => {
   const [scroll, setScroll] = useState(false);
 
-  let head;
+  const transitions = useTransition(scroll, null, {
+    from: { opacity: 0 },
+    enter: { opacity: 1 },
+    leave: { opacity: 0 },
+  });
 
   const checkScroll = () => {
-    if (!scroll && window.pageYOffset > 610) {
+    if (!scroll && window.pageYOffset > 500) {
       setScroll(true);
-    } else if (scroll && window.pageYOffset <= 610) {
+    } else if (scroll && window.pageYOffset <= 500) {
       setScroll(false);
     }
   };
 
   window.addEventListener("scroll", checkScroll);
-
-  if (scroll) {
-    head = (
-      <header className="header">
-        <div className="container">
-          <a href="/" className="logo">
-            <img src={logo} alt="logo"></img>
-          </a>
-        </div>
-      </header>
-    );
-  } else {
-    head = (
-      <header className="header-alt">
-        <div className="container">
-          <a href="/" className="logo">
-            <img src={logo} alt="logo"></img>
-          </a>
-        </div>
-      </header>
-    );
-  }
-
-  return <div className="header-wrap">{head}</div>;
+  return (
+    <div className="header-wrap">
+      {transitions.map(
+        ({ item, key, props }) =>
+          item && (
+            <animated.div key={key} style={props}>
+              <header className="header">
+                <div className="container">
+                  <a href="/" className="logo">
+                    <img src={logo} alt="logo"></img>
+                  </a>
+                </div>
+              </header>
+            </animated.div>
+          )
+      )}
+    </div>
+  );
 };
 
 export default Header;

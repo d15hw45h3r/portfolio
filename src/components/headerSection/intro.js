@@ -12,7 +12,7 @@ const About = () => {
         name="more"
         className="btn more"
         onClick={() => {
-          window.scrollTo({ top: 700, behavior: "smooth" });
+          window.scrollTo({ top: 600, behavior: "smooth" });
         }}
       >
         More

@@ -4,6 +4,7 @@ import Intro from "./intro";
 import "../../App.css";
 import styled from "@emotion/styled";
 import img from "../../img/header-bg.jpg";
+import HeaderAlt from "./header-alt";
 
 const WrapperHeader = () => {
   const Wrapper = styled.div`
@@ -13,6 +14,7 @@ const WrapperHeader = () => {
 
   return (
     <Wrapper>
+      <HeaderAlt />
       <Header />
       <Intro />
     </Wrapper>
