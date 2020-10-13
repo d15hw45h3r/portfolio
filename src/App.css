@@ -340,6 +340,10 @@ h3 {
   height: 360px;
 }
 .footer-wrap .contact {
+  margin-right: 20px;
+  display: inline-block;
+}
+.footer-wrap .contact div {
   border-radius: 50%;
   background-color: #745d62;
   width: 55px;
@@ -349,24 +353,23 @@ h3 {
   line-height: 55px;
   font-size: 24px;
   color: #240c12;
-  margin-right: 20px;
   transition: all 0.5s ease;
+}
+.footer-wrap .contact div:hover {
+  transform: scale(1.2);
+  font-size: 25px;
+  transition: all 0.5s ease;
+  background-color: #9d344a;
+}
+.footer-wrap .contact div:active {
+  transform: scale(1);
+  font-size: 24px;
 }
 .footer-wrap .contact span {
   display: none;
 }
 .footer-wrap .contact:last-child {
   margin-right: 0;
-}
-.footer-wrap .contact:hover {
-  transform: scale(1.2);
-  font-size: 25px;
-  transition: all 0.5s ease;
-  background-color: #9d344a;
-}
-.footer-wrap .contact:active {
-  transform: scale(1);
-  font-size: 24px;
 }
 .footer-wrap .contact .fa-github {
   font-size: 26px;

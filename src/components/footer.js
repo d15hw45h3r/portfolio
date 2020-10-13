@@ -1,6 +1,8 @@
 import React from "react";
 import "../App.css";
-import "../font-awesome-4.7.0/css/font-awesome.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
@@ -10,34 +12,47 @@ const Footer = () => {
           <div className="contacts">
             <a
               href="mailto:vinnichenkovaleriaa@gmail.com"
-              className="contact fa fa-envelope"
+              className="contact"
               target="_blank"
               rel="noopener noreferrer"
             >
+              <div>
+                <FontAwesomeIcon icon={faEnvelope} />
+              </div>
+
               <span>mail</span>
             </a>
             <a
               href="https://telegram.me/d15hw45h3r"
-              className="contact fa fa-paper-plane"
+              className="contact"
               target="_blank"
               rel="noopener noreferrer"
             >
+              <div>
+                <FontAwesomeIcon icon={faPaperPlane} />
+              </div>
               <span>telegram</span>
             </a>
             <a
               href="https://github.com/d15hw45h3r"
-              className="contact fa fa-github"
+              className="contact"
               target="_blank"
               rel="noopener noreferrer"
             >
+              <div>
+                <FontAwesomeIcon icon={faGithub} />
+              </div>
               <span>github</span>
             </a>
             <a
               href="https://www.linkedin.com/in/valeriia-vinnichenko-95592a1b2/"
-              className="contact fa fa-linkedin"
+              className="contact"
               target="_blank"
               rel="noopener noreferrer"
             >
+              <div>
+                <FontAwesomeIcon icon={faLinkedinIn} />
+              </div>
               <span>linkedin</span>
             </a>
           </div>
