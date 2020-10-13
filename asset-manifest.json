@@ -1,27 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.457f2493.chunk.css",
-    "main.js": "/portfolio/static/js/main.3e2154fc.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.3e2154fc.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.9c5c898c.chunk.css",
+    "main.js": "/portfolio/static/js/main.ce189dd6.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ce189dd6.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.1a0aad4a.chunk.js": "/portfolio/static/js/2.1a0aad4a.chunk.js",
-    "static/js/2.1a0aad4a.chunk.js.map": "/portfolio/static/js/2.1a0aad4a.chunk.js.map",
+    "static/js/2.f1edd6a5.chunk.js": "/portfolio/static/js/2.f1edd6a5.chunk.js",
+    "static/js/2.f1edd6a5.chunk.js.map": "/portfolio/static/js/2.f1edd6a5.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.088e1f7e789c3f669357291910a71bf7.js": "/portfolio/precache-manifest.088e1f7e789c3f669357291910a71bf7.js",
+    "precache-manifest.ed210b308d90b7f6180a677ea91559da.js": "/portfolio/precache-manifest.ed210b308d90b7f6180a677ea91559da.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.457f2493.chunk.css.map": "/portfolio/static/css/main.457f2493.chunk.css.map",
-    "static/js/2.1a0aad4a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1a0aad4a.chunk.js.LICENSE.txt",
+    "static/css/main.9c5c898c.chunk.css.map": "/portfolio/static/css/main.9c5c898c.chunk.css.map",
+    "static/js/2.f1edd6a5.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f1edd6a5.chunk.js.LICENSE.txt",
     "static/media/cv.pdf": "/portfolio/static/media/cv.d1faf808.pdf",
-    "static/media/font-awesome.css": "/portfolio/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/header-bg.jpg": "/portfolio/static/media/header-bg.57ac7604.jpg",
     "static/media/react-calculator.png": "/portfolio/static/media/react-calculator.f03eba28.png",
     "static/media/weather-project.png": "/portfolio/static/media/weather-project.1c267f08.png"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.1a0aad4a.chunk.js",
-    "static/css/main.457f2493.chunk.css",
-    "static/js/main.3e2154fc.chunk.js"
+    "static/js/2.f1edd6a5.chunk.js",
+    "static/css/main.9c5c898c.chunk.css",
+    "static/js/main.ce189dd6.chunk.js"
   ]
 }
