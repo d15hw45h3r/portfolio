@@ -70,30 +70,25 @@ h3 {
   font-size: 26px;
 }
 
-.page.en .ru,
-.page.ru .en {
-  display: none;
-}
-
 .container {
   margin: $margin-center;
   width: $width;
 }
 
-@keyframes slideDown {
-  0% {
-    transform: scale(0);
-    opacity: 0;
-  }
+// @keyframes slideDown {
+//   0% {
+//     transform: scale(0);
+//     opacity: 0;
+//   }
 
-  1% {
-    transform: translateY(-100%);
-  }
+//   1% {
+//     transform: translateY(-100%);
+//   }
 
-  100% {
-    transform: translateY(0%);
-  }
-}
+//   100% {
+//     transform: translateY(0%);
+//   }
+// }
 
 // HEADER
 
@@ -106,7 +101,6 @@ h3 {
 
 .header-alt {
   // CHANGED
-  animation: none;
   background-color: transparent;
 }
 
@@ -117,13 +111,7 @@ h3 {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1;
-  animation-name: slideDown;
-  -webkit-animation-name: slideDown;
-  animation-duration: 2s;
-  -webkit-animation-duration: 1s;
-  animation-timing-function: ease;
-  -webkit-animation-timing-function: ease;
+  z-index: 50;
 }
 
 .header img,
@@ -186,12 +174,12 @@ $width-1: 400px;
 // BUTTONS
 
 .btn {
-  width: 168px;
-  height: 65px;
+  width: 150px;
+  height: 60px;
 }
 
 .btn-cv {
-  width: 150px;
+  width: 140px;
   height: 60px;
   line-height: 2.5;
 
@@ -209,7 +197,7 @@ $width-1: 400px;
   color: $white;
 
   font-family: $font-didact;
-  font-size: 26px;
+  font-size: 23px;
 
   margin-left: 37px;
   margin-top: 32px;

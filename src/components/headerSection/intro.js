@@ -7,7 +7,14 @@ const About = () => {
         <h1>Valeriia Vinnichenko</h1>
         <p>Junior Front-end Developer, Bachelor @KPI</p>
       </div>
-      <button type="button" name="more" className="btn more">
+      <button
+        type="button"
+        name="more"
+        className="btn more"
+        onClick={() => {
+          window.scrollTo({ top: 700, behavior: "smooth" });
+        }}
+      >
         More
       </button>
     </section>
