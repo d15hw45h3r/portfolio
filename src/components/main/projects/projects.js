@@ -11,7 +11,7 @@ const Projects = () => {
     <section>
       <div className="projects">
         <ProjectItem
-          link="https://valeriias-react-calculator.netlify.app/"
+          link="https://d15hw45h3r.github.io/calculator/"
           header="React calculator"
           description="This is my first project using React."
           image={img}
