@@ -12,15 +12,14 @@ const About = () => {
           my career in Web development field.
         </p>
         <p>
-          When I started learning web design, I didn`t even thought that I`ll
-          start to have interest for something else. But then I discovered that
-          I want to make my own web sites. So I started learning HTML and CSS.
-          Then I wanted to do more things, so I`m learning JavaScript and
-          React.js now.
+          First of all, I have a desire to learn. Since programming is a
+          practical subject, it needs a lot of practice, but imaginary projects
+          don`t give enough of experience for real development. I would like to
+          see how teamwork is arranged in this field.
         </p>
         <p>
-          I want to move forward and learn more interesting features and to
-          improve myself every day.
+          While studying something new I go into subtleties. I consider myself
+          dedicated and commited.
         </p>
       </div>
       <a
