@@ -5,6 +5,7 @@ import ProjectItem from "./project-component";
 
 import img from "../../../files/react-calculator.png";
 import img2 from "../../../files/weather-project.png";
+import img3 from "../../../files/todo-list.png";
 
 const Projects = () => {
   return (
@@ -21,6 +22,12 @@ const Projects = () => {
           header="Weather app"
           description="A set of weather cards using OpenWeatherMap API."
           image={img2}
+        />
+        <ProjectItem
+          link="https://d15hw45h3r.github.io/todo-list/"
+          header="Todo List"
+          description="This is a simple todo list created to practice useState."
+          image={img3}
         />
       </div>
     </section>

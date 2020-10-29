@@ -11,7 +11,7 @@ const Achievements = () => {
             <h3>Education</h3>
             <p>Igor Sikorsky Kyiv Polytechnic Institute, 2017-2021</p>
             <p>Faculty: Informatics and Computer Technology</p>
-            <p>Specialty: Computer Engineeging</p>
+            <p>Specialty: Computer Engineering</p>
           </div>
           <div className="ach-section">
             <h3>First Certificate in English</h3>

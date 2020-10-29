@@ -22,12 +22,7 @@ const About = () => {
           dedicated and commited.
         </p>
       </div>
-      <a
-        href={cv}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="btn-cv en"
-      >
+      <a href={cv} target="_blank" rel="noopener noreferrer" className="btn-cv">
         My CV
       </a>
     </section>

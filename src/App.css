@@ -151,17 +151,14 @@ h3 {
 }
 
 .btn {
-  width: 150px;
-  height: 60px;
+  padding: 10px 35px;
 }
 
 .btn-cv {
-  width: 140px;
-  height: 60px;
-  line-height: 2.5;
+  padding: 0 30px;
   text-align: center;
   vertical-align: middle;
-  line-height: 60px;
+  line-height: 50px;
   display: inline-block;
   margin-bottom: 80px;
 }
@@ -172,7 +169,7 @@ h3 {
   background-color: transparent;
   color: #fff;
   font-family: "Didact Gothic", sans-serif;
-  font-size: 23px;
+  font-size: 22px;
   margin-left: 37px;
   margin-top: 32px;
 }
